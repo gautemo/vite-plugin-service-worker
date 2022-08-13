@@ -74,3 +74,12 @@ npm i @gautemo/vite-plugin-service-worker -D
 
 </details>
 
+## npm publish
+
+```sh
+pnpm build
+```
+
+```sh
+npm publish --access=public
+```
