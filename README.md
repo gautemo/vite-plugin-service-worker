@@ -74,6 +74,10 @@ npm i @gautemo/vite-plugin-service-worker -D
 
 </details>
 
+## Example
+
+Project with TypeScript: [module-ts](./examples/module-ts/)
+
 ## npm publish
 
 ```sh
