@@ -1,14 +1,14 @@
-import { value } from './module'
+import { value } from './src/module'
 
 declare let self: ServiceWorkerGlobalScope
 
 self.addEventListener('install', () => {
-  console.log('-Service worker installed')
   self.skipWaiting()
+  console.log('Service worker installed')
 })
 self.addEventListener('activate', event => {
   event.waitUntil(self.clients.claim())
-  console.log('-Service worker activated')
+  console.log('Service worker activated')
 })
 
-console.log(value, '4556')
+console.log(value)
