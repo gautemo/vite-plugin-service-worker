@@ -24,6 +24,40 @@ importers:
       typescript: 4.7.4
       vite: 3.0.4
 
+  examples/classic-ts:
+    specifiers:
+      typescript: ^4.6.4
+      vite: ^3.0.0
+    devDependencies:
+      typescript: 4.7.4
+      vite: 3.0.4
+
+  examples/classic-tsr:
+    specifiers:
+      '@gautemo/vite-plugin-service-worker': workspace:*
+      typescript: ^4.6.4
+      vite: ^3.0.0
+    devDependencies:
+      '@gautemo/vite-plugin-service-worker': link:../..
+      typescript: 4.7.4
+      vite: 3.0.4
+
+  examples/module:
+    specifiers:
+      vite: ^3.0.0
+    devDependencies:
+      vite: 3.0.4
+
+  examples/module-ts:
+    specifiers:
+      '@gautemo/vite-plugin-service-worker': workspace:*
+      typescript: ^4.6.4
+      vite: ^3.0.0
+    devDependencies:
+      '@gautemo/vite-plugin-service-worker': link:../..
+      typescript: 4.7.4
+      vite: 3.0.4
+
 packages:
 
   /@esbuild/linux-loong64/0.14.53:
