@@ -39,7 +39,8 @@ export function serviceWorkerPlugin(options: Options): PluginOption {
     },
     load(id) {
       if (id === resolvedVirtualModuleId) {
-        const filename = isBuild ? options.filename.replace('.ts', '.js') : options.filename
+        let filename = isBuild ? options.filename.replace('.ts', '.js') : options.filename
+        if(!filename.startsWith('/')) filename = `/${filename}`
         return `export const serviceWorkerFile = '${filename}'`
       }
     },

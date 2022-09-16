@@ -31,7 +31,7 @@ npm i @gautemo/vite-plugin-service-worker -D
   Then register your service worker in your src code.
 
   ```js
-  navigator.serviceWorker.register('sw.js', {
+  navigator.serviceWorker.register('/sw.js', {
     type: 'module',
   })
   ```
