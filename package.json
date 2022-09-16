@@ -1,6 +1,6 @@
 {
   "name": "@gautemo/vite-plugin-service-worker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple way to register service worker in a Vite project",
   "main": "dist/index.js",
   "type": "module",
