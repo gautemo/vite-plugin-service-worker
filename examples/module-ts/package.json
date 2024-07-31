@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^4.6.4",
-    "vite": "^3.0.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
     "@gautemo/vite-plugin-service-worker": "workspace:*"
   }
 }
